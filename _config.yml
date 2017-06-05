@@ -1,12 +1,12 @@
 # Site settings
-title: *folio
-email: you@example.com
+title: Yongha Hwang 
+email: ahgnoy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  Architectural data scientist
 baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
-twitter_username: twitter_username
-github_username:  github_username
+url:  yonghah.github.io
+twitter_username: pathoverlap 
+github_username: yonghah 
 
 # Build settings
 markdown: kramdown
