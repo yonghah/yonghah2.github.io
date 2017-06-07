@@ -213,6 +213,10 @@ position: relative;
 left: -25%;
 top: -5%;
 }
+.thumbnail a:hover img{
+opacity: 0.2;
+}
+
 .thumbnail a{
 float: left;
 position: relative;
@@ -220,7 +224,7 @@ width: 100%;
 height: 230px;
 }
 .thumbnail a span {
-display: none;
+display: block;
 position: absolute;
 top: 0;
 left: 0;
@@ -233,6 +237,7 @@ text-align: center;
 }
 .thumbnail a:hover span {
 display: block;
+color: black;
 }
 /** 
  * Portfolio pages **********************************************************
