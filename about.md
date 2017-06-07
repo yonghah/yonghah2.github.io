@@ -15,7 +15,7 @@ permalink: /about/
 - B.E.    Architecture, Seoul National University, 2000
 
 #### Research interests
-Workplace Design; Quantitative Layout Analysis; Data Visualization; Socio-spatial interaction;
+Workplace Design; Quantitative Layout Analysis; Data Visualization; Indoor Space GIS; Machine-understandable Floorplan Representation;
 
 #### Dissertation
 - Title: **Essays on analytical methods applicable to the micro-geography of the workplace**
