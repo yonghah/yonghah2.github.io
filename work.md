@@ -4,7 +4,7 @@ title: work
 permalink: /work/
 ---
 
-{% for project in site.work %}
+{% for project in site.work reversed %}
 
 {% if project.redirect %}
 <div class="project">

@@ -145,6 +145,15 @@ article a {
 }
 
 
+p a {
+    color: $theme-color;
+    font-weight: 100;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 
 /**
  * Blockquotes
