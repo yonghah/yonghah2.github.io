@@ -2,17 +2,31 @@
 
   <div class="wrapper">
 
+    {% if page.layout != "about" %}
+    <span class="site-title">
+        {% assign name = site.name | split: ' ' %}
+        {{ name | first }} <strong>{{ name | last }}</strong> 
+    </span>
+    {% endif %}
+
     <nav class="site-nav">
 
       <div class="trigger">
-        <!-- {{ site.title }} instead of blog -->
-        <a class="page-link" href="{{ site.baseurl }}/">blog</a>
+        <!-- About -->
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">about</a>
 
+        <!-- Blog -->
+        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">blog</a>
+
+        <!-- Pages -->
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% if page.title and page.url != "/" %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="{{ '/assets/pdf/CV.pdf' | prepend: site.baseurl | prepend: site.url }}">vitae</a> -->
 
       </div>
     </nav>
