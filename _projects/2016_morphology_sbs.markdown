@@ -2,7 +2,7 @@
 layout: post
 title: Morphology side-by-side 
 description: compare cities in the same scale
-img: /assets/img/morphology_sbs_thumb.png
+img: /assets/img/projects/morphology_sbs_thumb.png
 ---
 
 This web page provides morphological comparison across world cities in an easy way. You can add as many city as you want with its name. The scale across maps is kept always the same. You can change the map scale by using the zoom slider at the top left corner or wheel-scroll on the map.

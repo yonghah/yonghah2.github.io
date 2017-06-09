@@ -5,14 +5,10 @@ name: Yongha Hwang
 email: yonghah@example.com
 description: > # this means to ignore newlines until "url:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-
+footer_text: 
 url:  # the base hostname & protocol for your site
 #baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+last_updated: true # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -20,7 +16,6 @@ last_updated: # leave blank if you don't want to display last updated
 github_username: yonghah # put your github username
 twitter_username: pathoverlap # put your twitter username
 scholar_authorid: Iu9k8qQAAAAJ # put your google scholar author id
-contact_note: Email is the best way to reach me.
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
@@ -38,7 +33,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+    disqus_shortname: yonghah-github-io # put your disqus shortname
 
 # Optional features
 show_social_icons:  false
