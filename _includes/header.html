@@ -2,11 +2,12 @@
 
   <div class="wrapper">
 
+    {% if page.layout != "about" %}
     <span class="site-title">
         {% assign name = site.name | split: ' ' %}
         {{ name | first }} <strong>{{ name | last }}</strong> 
     </span>
-
+    {% endif %}
     <nav class="site-nav">
 
       <div class="trigger">
