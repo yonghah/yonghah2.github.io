@@ -1,0 +1,20 @@
+---
+layout: post
+title: list of items to be posted 
+date: 2017-06-08   
+description: 
+---
+
+### blog
+- geopandas for architecture
+- gosmnx line graph
+- gbombing korean war
+- ghealthInstKr
+
+
+### misc
+- gseoul-buildings
+- gseoul-1933
+- gpy1946
+- gzone overlap
+
